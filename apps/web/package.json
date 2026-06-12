@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "{{ROOT_PROJECT_NAME}}/web",
+  "displayName": "{{ROOT_PROJECT_DISPLAY_NAME}} - Frontend application using NextJS",
+  "description": "{{PROJECT_MINIMAL_DESCRIPTION}}",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Bruno Jardon",
+    "email": "brunojardon3@gmail.com"
+  },
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "compile": "tsc --noEmit",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.0",
+    "@types/node": "20.19.43",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.9",
+    "tailwindcss": "4.3.0",
+    "typescript": "5.9.3"
+  }
+}
